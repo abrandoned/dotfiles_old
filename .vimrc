@@ -1,5 +1,6 @@
 " Prevents old bugs and limitations
 set nocompatible
+set t_Co=256
 
 filetype off " for pathogen to load
 " Calling pathogen to load the bundles

@@ -2,6 +2,12 @@
 set nocompatible
 set t_Co=256
 
+" Remove toolbar if running in mvim
+if has("gui_running")
+  set guioptions=aAce
+  set transparency=8
+endif
+
 filetype off " for pathogen to load
 " Calling pathogen to load the bundles
 call pathogen#runtime_append_all_bundles()

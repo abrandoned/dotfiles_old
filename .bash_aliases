@@ -6,3 +6,6 @@ alias bu="b update"
 alias bo="b open"
 alias be="b exec"
 alias bx="b exec"
+
+# Setup env variables
+export EDITOR="vim"

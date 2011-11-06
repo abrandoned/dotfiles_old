@@ -44,6 +44,9 @@ set autoindent
 " autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd BufNewFile,BufRead *.mobile.erb let b:eruby_subtype = 'html' 
 
+" Remove history file if created
+autocmd VimLeave * if filereadable($HOME."/.vim/.netrwhist") | call delete($HOME."/.vim/.netrwhist") | endif
+
 " SuperTab Config stuff
 " let g:SuperTabDefaultCompletionType = "context"
 

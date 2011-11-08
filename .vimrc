@@ -62,6 +62,10 @@ highlight Pmenu ctermbg=238 gui=bold
 " Setup ignore patterns for CommandT
 set wildignore+=*.o,*.obj,.git,doc/**,*.sql,*.log
 
+" Add NERDTree open by default and move to edit window
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
 " Setup stuff for SnipMate
 source ~/.vim/bundle/vim-snipmate/snippets/support_functions.vim
 autocmd vimenter * call s:SetupSnippets()

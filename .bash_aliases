@@ -75,4 +75,4 @@ BRIGHT_VIOLET="\[$ESC[${BRIGHT};${FG_VIOLET}m\]"
 BRIGHT_CYAN="\[$ESC[${BRIGHT};${FG_CYAN}m\]"
 BRIGHT_WHITE="\[$ESC[${BRIGHT};${FG_WHITE}m\]"
 
-PS1="$BRIGHT_RED DEV - $(date +%H:%M) \w$BRIGHT_GREEN \$(parse_git_branch) $BRIGHT_WHITE\$ "
+PS1="$BRIGHT_BLUE DEV - $BRIGHT_RED\$(date +%H:%M) \w$BRIGHT_GREEN \$(parse_git_branch) $BRIGHT_WHITE\$ "

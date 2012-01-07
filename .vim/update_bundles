@@ -18,7 +18,8 @@ git_bundles = [
   "git://github.com/tpope/vim-surround.git",
   "git://github.com/tpope/vim-endwise.git",
   "git://github.com/jdevera/vim-protobuf-syntax.git",
-  "git://github.com/scrooloose/nerdtree.git"
+  "git://github.com/scrooloose/nerdtree.git",
+  "git://github.com/ervandew/supertab.git"
 ]
 
 vim_org_scripts = [
